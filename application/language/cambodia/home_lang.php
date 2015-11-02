@@ -1,5 +1,5 @@
 <?php
-$lang['hello'] = 'Hello English!!';
+$lang['hello'] = 'Hello Cambudia!!';
 $lang['rainbow_system'] = 'Rainbow system';
 $lang['rainbow_worldwide'] = 'Rainbow Worldwide';
 $lang['rainbow_cambodia'] = 'Rainbow Cambodia';

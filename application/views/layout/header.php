@@ -9,6 +9,7 @@
     <title><?php echo (!empty($title) ? $title : 'Rainbow System'); ?></title>
 
     <link href="/resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/resources/css/layout.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,3 +19,64 @@
     <![endif]-->
 </head>
 <body>
+<div class="container">
+    <div class="row">
+        <div class="col-xs6">
+            <a href="<?php echo base_url(); ?>"><img class="logo-right" src="/resources/img/logo-left.jpg"></a>
+        </div>
+        <div class="col-xs6">
+            <a href="<?php echo base_url(); ?>"><img class="logo-left" src="/resources/img/logo-right.jpg"></a>
+        </div>
+    </div>
+
+    <ul class="main-menu">
+        <li class="active">
+            <a href="<?php echo base_url($lang); ?>"><img src="/resources/img/icon-home.png"></a>
+        </li>
+        <li class="visible-md">
+            <a href="#"><?php echo lang('rainbow_system'); ?></a>
+            <ul>
+                <li>
+                    <a href="http://www.rainbowsystem.com/" target="_blank"><?php echo lang('rainbow_worldwide'); ?></a>
+                </li>
+                <li>
+                    <a href="#"><?php echo lang('rainbow_cambodia'); ?></a>
+                </li>
+            </ul>
+        </li>
+        <li class="visible-md">
+            <span><?php echo lang('careers'); ?></span>
+            <ul>
+                <li>
+                    <a href="#"><?php echo lang('full_time_opportunity'); ?></a>
+                </li>
+                <li>
+                    <a href="#"><?php echo lang('part_time_opportunity'); ?></a>
+                </li>
+                <li>
+                    <a href="#"><?php echo lang('colleague_university_student'); ?></a>
+                </li>
+            </ul>
+        </li>
+        <li class="visible-md">
+            <a href="#"><?php echo lang('our_product'); ?></a>
+        </li>
+        <li class="visible-md">
+            <a href="#"><?php echo lang('contact'); ?></a>
+        </li>
+        <li class="visible-md">
+            <a href="#"><?php echo lang('request_a_demonstration'); ?></a>
+        </li>
+        <li>
+            <button class="btn btn-default visible-sm visible-xs" id="btnToggleMenu">
+                <span class="glyphicon glyphicon-menu-hamburger"></span>
+            </button>
+            <a href="<?php echo base_url('ca'); ?>" <?php echo ($lang == 'ca' ? 'class="current"' : ''); ?>>
+                <img src="/resources/ca.png" class="lang-flag">
+            </a>
+            <a href="<?php echo base_url('en'); ?>" <?php echo ($lang == 'en' ? 'class="current"' : ''); ?>>
+                <img src="/resources/en.png" class="lang-flag">
+            </a>
+        </li>
+    </ul>
+</div>
