@@ -56,3 +56,35 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['en'] = 'pages/home/en';
 $route['ca'] = 'pages/home/ca';
+
+$route['rainbow-system'] = 'pages/rainbowSystem/en';
+$route['en/rainbow-system'] = 'pages/rainbowSystem/en';
+$route['ca/rainbow-system'] = 'pages/rainbowSystem/ca';
+
+$route['rainbow-cambodia'] = 'pages/rainbowCambodia/en';
+$route['en/rainbow-cambodia'] = 'pages/rainbowCambodia/en';
+$route['ca/rainbow-cambodia'] = 'pages/rainbowCambodia/ca';
+
+$route['full-time-opportunity'] = 'pages/fullTime/en';
+$route['en/full-time-opportunity'] = 'pages/fullTime/en';
+$route['ca/full-time-opportunity'] = 'pages/fullTime/ca';
+
+$route['part-time-opportunity'] = 'pages/partTime/en';
+$route['en/part-time-opportunity'] = 'pages/partTime/en';
+$route['ca/part-time-opportunity'] = 'pages/partTime/ca';
+
+$route['colleague-university-student'] = 'pages/university/en';
+$route['en/colleague-university-student'] = 'pages/university/en';
+$route['ca/colleague-university-student'] = 'pages/university/ca';
+
+$route['our-product'] = 'pages/product/en';
+$route['en/our-product'] = 'pages/product/en';
+$route['ca/our-product'] = 'pages/product/ca';
+
+$route['contact'] = 'pages/contact/en';
+$route['en/contact'] = 'pages/contact/en';
+$route['ca/contact'] = 'pages/contact/ca';
+
+$route['request-demonstration'] = 'pages/demo/en';
+$route['en/request-demonstration'] = 'pages/demo/en';
+$route['ca/request-demonstration'] = 'pages/demo/ca';

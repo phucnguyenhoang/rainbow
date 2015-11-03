@@ -3,9 +3,11 @@ body {
 }
 .logo-left {
     float: left;
+    margin-left: 10px;
 }
 .logo-right {
     float: right;
+    margin-right: 10px;
 }
 
 ul.main-menu {
@@ -14,6 +16,7 @@ ul.main-menu {
     background-color: #aabdc0;
     width: 100%;
     height: 55px;
+    list-style: none;
 }
 ul.main-menu, ul.main-menu ul {
     display: block;
@@ -28,6 +31,7 @@ ul.main-menu > li {
     overflow: hidden;
     text-align: center;
     background-color: #aabdc0;
+    list-style: none;
 }
 ul.main-menu > li:nth-child(1) {
     width: 5%;
@@ -92,6 +96,7 @@ ul.main-menu ul > li {
     height: 55px;
     overflow: hidden;
     background-color: #6b7a7d;
+    list-style: none;
 }
 ul.main-menu ul > li > a {
     display: block;
@@ -134,8 +139,54 @@ ul.main-menu > li:last-child > a:hover img {
 
 #btnToggleMenu {
     float: right;
-    margin-top: 8px;
+    margin-top: 10px;
     margin-left: 10px;
+}
+
+#panMenuBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 9998;
+}
+ul.right-menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 260px;
+    height: 100%;
+    padding-left:  20px;
+    text-decoration: none;
+    list-style: none;
+    background-color: #e7ecef;
+    z-index: 9999;
+}
+ul.right-menu > li > ul {
+    padding-left: 20px;
+}
+ul.right-menu > li {
+    list-style: none;
+}
+ul.right-menu li {
+    text-transform: uppercase;
+    line-height: 30px;
+}
+ul.right-menu > li:first-child {
+    height: 115px;
+    text-align: center;
+}
+
+ul.right-menu li:not(:first-child).active > a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+ul.right-menu li ul li.active > a {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 /***** screen < 992px ******/

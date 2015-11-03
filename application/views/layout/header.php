@@ -22,61 +22,101 @@
 <div class="container">
     <div class="row">
         <div class="col-xs6">
-            <a href="<?php echo base_url(); ?>"><img class="logo-right" src="/resources/img/logo-left.jpg"></a>
+            <a href="<?php echo base_url(); ?>"><img class="logo-right" src="/resources/img/logo-right.jpg"></a>
         </div>
         <div class="col-xs6">
-            <a href="<?php echo base_url(); ?>"><img class="logo-left" src="/resources/img/logo-right.jpg"></a>
+            <a href="<?php echo base_url(); ?>"><img class="logo-left" src="/resources/img/logo-left.jpg"></a>
         </div>
     </div>
 
     <ul class="main-menu">
-        <li class="active">
+        <li <?php echo ($menu == 'home' ? 'class="active"' : ''); ?>>
             <a href="<?php echo base_url($lang); ?>"><img src="/resources/img/icon-home.png"></a>
         </li>
-        <li class="visible-md">
-            <a href="#"><?php echo lang('rainbow_system'); ?></a>
+        <li class="visible-md visible-lg <?php echo (($menu == 'rainbow-system' || $menu == 'rainbow-cambodia') ? 'active' : ''); ?>">
+            <a href="<?php echo base_url('rainbow-system'); ?>"><?php echo lang('rainbow_system'); ?></a>
             <ul>
                 <li>
                     <a href="http://www.rainbowsystem.com/" target="_blank"><?php echo lang('rainbow_worldwide'); ?></a>
                 </li>
-                <li>
-                    <a href="#"><?php echo lang('rainbow_cambodia'); ?></a>
+                <li <?php echo ($menu == 'rainbow-cambodia' ? 'class="active"' : ''); ?>>
+                    <a href="<?php echo base_url('rainbow-cambodia'); ?>"><?php echo lang('rainbow_cambodia'); ?></a>
                 </li>
             </ul>
         </li>
-        <li class="visible-md">
+        <li class="visible-md visible-lg <?php echo (($menu == 'full-time-opportunity' || $menu == 'part_time_opportunity' || $menu == 'colleague-university-student') ? 'active' : ''); ?>">
             <span><?php echo lang('careers'); ?></span>
             <ul>
-                <li>
-                    <a href="#"><?php echo lang('full_time_opportunity'); ?></a>
+                <li <?php echo ($menu == 'full-time-opportunity' ? 'class="active"' : ''); ?>>
+                    <a href="<?php echo base_url('full-time-opportunity'); ?>"><?php echo lang('full_time_opportunity'); ?></a>
                 </li>
-                <li>
-                    <a href="#"><?php echo lang('part_time_opportunity'); ?></a>
+                <li <?php echo ($menu == 'part-time-opportunity' ? 'class="active"' : ''); ?>>
+                    <a href="<?php echo base_url('part-time-opportunity'); ?>"><?php echo lang('part_time_opportunity'); ?></a>
                 </li>
-                <li>
-                    <a href="#"><?php echo lang('colleague_university_student'); ?></a>
+                <li <?php echo ($menu == 'colleague-university-student' ? 'class="active"' : ''); ?>>
+                    <a href="<?php echo base_url('colleague-university-student'); ?>"><?php echo lang('colleague_university_student'); ?></a>
                 </li>
             </ul>
         </li>
-        <li class="visible-md">
-            <a href="#"><?php echo lang('our_product'); ?></a>
+        <li class="visible-md visible-lg <?php echo ($menu == 'our-product' ? 'active' : ''); ?>">
+            <a href="<?php echo base_url('our-product'); ?>"><?php echo lang('our_product'); ?></a>
         </li>
-        <li class="visible-md">
-            <a href="#"><?php echo lang('contact'); ?></a>
+        <li class="visible-md visible-lg <?php echo ($menu == 'contact' ? 'active' : ''); ?>">
+            <a href="<?php echo base_url('contact'); ?>"><?php echo lang('contact'); ?></a>
         </li>
-        <li class="visible-md">
-            <a href="#"><?php echo lang('request_a_demonstration'); ?></a>
+        <li class="visible-md visible-lg <?php echo ($menu == 'request-demonstration' ? 'active' : ''); ?>">
+            <a href="<?php echo base_url('request-demonstration'); ?>"><?php echo lang('request_a_demonstration'); ?></a>
         </li>
         <li>
             <button class="btn btn-default visible-sm visible-xs" id="btnToggleMenu">
                 <span class="glyphicon glyphicon-menu-hamburger"></span>
             </button>
-            <a href="<?php echo base_url('ca'); ?>" <?php echo ($lang == 'ca' ? 'class="current"' : ''); ?>>
+            <a href="<?php echo base_url('ca/'.$menu); ?>" <?php echo ($lang == 'ca' ? 'class="current"' : ''); ?>>
                 <img src="/resources/ca.png" class="lang-flag">
             </a>
-            <a href="<?php echo base_url('en'); ?>" <?php echo ($lang == 'en' ? 'class="current"' : ''); ?>>
+            <a href="<?php echo base_url('en/'.$menu); ?>" <?php echo ($lang == 'en' ? 'class="current"' : ''); ?>>
                 <img src="/resources/en.png" class="lang-flag">
             </a>
         </li>
     </ul>
+    <ul class="right-menu" id="rightMenu">
+        <li>
+            <a href="<?php echo base_url($lang); ?>"><img src="/resources/img/logo-left.jpg"></a>
+        </li>
+        <li <?php echo ($menu == 'rainbow-system' ? 'class="active"' : ''); ?>>
+            <a href="<?php echo base_url('rainbow-system'); ?>"><?php echo lang('rainbow_system'); ?></a>
+            <ul>
+                <li>
+                    <a href="http://www.rainbowsystem.com/" target="_blank"><?php echo lang('rainbow_worldwide'); ?></a>
+                </li>
+                <li <?php echo ($menu == 'rainbow-cambodia' ? 'class="active"' : ''); ?>>
+                    <a href="<?php echo base_url('rainbow-cambodia'); ?>"><?php echo lang('rainbow_cambodia'); ?></a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <span><?php echo lang('careers'); ?></span>
+            <ul>
+                <li <?php echo ($menu == 'full-time-opportunity' ? 'class="active"' : ''); ?>>
+                    <a href="<?php echo base_url('full-time-opportunity'); ?>"><?php echo lang('full_time_opportunity'); ?></a>
+                </li>
+                <li <?php echo ($menu == 'part-time-opportunity' ? 'class="active"' : ''); ?>>
+                    <a href="<?php echo base_url('part-time-opportunity'); ?>"><?php echo lang('part_time_opportunity'); ?></a>
+                </li>
+                <li <?php echo ($menu == 'colleague-university-student' ? 'class="active"' : ''); ?>>
+                    <a href="<?php echo base_url('colleague-university-student'); ?>"><?php echo lang('colleague_university_student'); ?></a>
+                </li>
+            </ul>
+        </li>
+        <li <?php echo ($menu == 'our-product' ? 'class="active"' : ''); ?>>
+            <a href="<?php echo base_url('our-product'); ?>"><?php echo lang('our_product'); ?></a>
+        </li>
+        <li <?php echo ($menu == 'contact' ? 'class="active"' : ''); ?>>
+            <a href="<?php echo base_url('contact'); ?>"><?php echo lang('contact'); ?></a>
+        </li>
+        <li <?php echo ($menu == 'request-demonstration' ? 'class="active"' : ''); ?>>
+            <a href="<?php echo base_url('request-demonstration'); ?>"><?php echo lang('request_a_demonstration'); ?></a>
+        </li>
+    </ul>
 </div>
+<div id="panMenuBg" class="hide"></div>
