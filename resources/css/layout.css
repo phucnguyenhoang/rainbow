@@ -10,6 +10,15 @@ body {
     margin-right: 10px;
 }
 
+.home-content {
+    width: 100%;
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
 ul.main-menu {
     position: relative;
     z-index: 999;
@@ -17,6 +26,7 @@ ul.main-menu {
     width: 100%;
     height: 55px;
     list-style: none;
+    margin: 0;
 }
 ul.main-menu, ul.main-menu ul {
     display: block;
@@ -88,7 +98,7 @@ ul.main-menu > li:nth-child(2) ul {
     width: 250px;
 }
 ul.main-menu > li:nth-child(3) ul {
-    width: 280px;
+    width: 310px;
 }
 ul.main-menu ul > li {
     display: block;
@@ -97,6 +107,10 @@ ul.main-menu ul > li {
     overflow: hidden;
     background-color: #6b7a7d;
     list-style: none;
+}
+ul.main-menu li.highlight {
+    background-image: url("/resources/img/bt-bg2over.png");
+    background-repeat: repeat-x;
 }
 ul.main-menu ul > li > a {
     display: block;
@@ -164,6 +178,7 @@ ul.right-menu {
     list-style: none;
     background-color: #e7ecef;
     z-index: 9999;
+    overflow-y: auto;
 }
 ul.right-menu > li > ul {
     padding-left: 20px;
@@ -187,6 +202,137 @@ ul.right-menu li:not(:first-child).active > a {
 ul.right-menu li ul li.active > a {
     text-decoration: underline;
     font-weight: bold;
+}
+
+
+.home-content .carousel .carousel-inner .item img {
+    width: 100%;
+}
+
+.footer {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.footer .bg-footer {
+    width: 100%;
+    margin: auto;
+}
+
+.text-copy-right {
+    text-align: left;
+    color: #aaaaaa;
+}
+.text-design {
+    text-align: right;
+    color: #aaaaaa;
+}
+.text-design a {
+    color: #17a9dc;
+}
+
+.sub-header {
+    width: 100%;
+    background-color: #dbe4e4;
+}
+.sub-header > .container {
+    position: relative;
+}
+.sub-header img {
+    width: 100%;
+    border-bottom: 5px solid #9bb0b3;
+}
+.sub-header-shadow {
+    background-image: url("../img/headertitle-content--shadow.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: 100%;
+    height: 23px;
+}
+.sub-header .sub-header-text {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #17a9dc;;
+}
+
+.rainbow-cambodia-img {
+    width: 98%;
+    float: right;
+    margin-top: 50px;
+}
+
+.full-time-img {
+    width: 98%;
+    float: right;
+}
+
+.main-content {
+    background-color: white;
+    padding: 15px 10px 50px 10px;
+    margin-bottom: 20px;
+}
+
+/* our product */
+.product-text {
+    background-image: url("/resources/img/bg-content.jpg");
+    background-position: left top;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.product-img {
+    position: relative;
+}
+.product-img img {
+    width: 100%;
+    margin-top: -80px;
+}
+.line-number {
+    float: left;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 11px;
+    color: #ffffff;
+    background-image: url("/resources/img/icn-bullet.png");
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.line-content {
+    margin: 0 0 0 25px;
+}
+.line-content h5, .text-product {
+    color: #19b4e8;
+}
+.line-content h5 {
+    padding: 4px 0 5px 0;
+    margin: 0;
+}
+.line-content p {
+    font-size: 11px;
+}
+
+label.required:after {
+    content: "*";
+    color: red;
+    font-size: 11px;
+    padding-left: 3px;
+}
+.rainbow-system-text li {
+    margin-bottom: 20px;
+}
+
+/***** screen > 992px ******/
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
 }
 
 /***** screen < 992px ******/
@@ -213,5 +359,61 @@ ul.right-menu li ul li.active > a {
         background-image: none;
         text-decoration: none;
         overflow: visible;
+    }
+
+    .text-copy-right {
+        text-align: center;
+    }
+    .text-design {
+        text-align: center;
+    }
+    .footer .bg-footer {
+        margin-top: -10px;
+    }
+
+    .sub-header-shadow {
+        height: 12px;
+    }
+
+    .sub-header .sub-header-text {
+        top: 20px;
+        left: 40px;
+        font-size: 28px;
+    }
+
+    .product-img img {
+        margin-top: 20px;
+    }
+}
+
+/***** screen < 768px ******/
+@media (max-width: 768px) {
+    .sub-header img {
+        border-bottom: 3px solid #9bb0b3;
+    }
+    .sub-header .sub-header-text {
+        top: 15px;
+        left: 35px;
+        font-size: 25px;
+    }
+    .sub-header-shadow {
+        height: 8px;
+    }
+
+    .rainbow-cambodia-img {
+        float: none;
+        margin-top: 0;
+    }
+
+    .full-time-img {
+        float: none;
+    }
+}
+/***** screen < 400px ******/
+@media (max-width: 400px) {
+    .sub-header .sub-header-text {
+        top: 10px;
+        left: 30px;
+        font-size: 10px;
     }
 }

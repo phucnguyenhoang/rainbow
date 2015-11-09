@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://rainbow.loc/';
+$config['base_url'] = 'http://b082ffd8.ngrok.io/';
 
 /*
 |--------------------------------------------------------------------------
