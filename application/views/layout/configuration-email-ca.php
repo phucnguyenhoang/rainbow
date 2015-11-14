@@ -9,14 +9,14 @@
 <body>
 <h4>Dear <?php echo $data['fullName']; ?>,</h4>
 <p>
-    We just received an demonstration request from you at <a href="<?php echo base_url(); ?>"><?php echo base_url(); ?></a>.
+    We just received a demonstration request from you at <a href="<?php echo base_url(); ?>"><?php echo base_url(); ?></a>.
 </p>
 <h3 style="color: #003399;"><u>Request detail:</u></h3>
 <table border="0" cellpadding="0" cellspacing="1px" style="width: 100%; border-color: #CCCCCC;">
     <thead style="background-color: #003399; color: white; font-weight: bold; text-align: center">
     <tr>
         <td><h4>#</h4></td>
-        <td><h4>Value</h4></td>
+        <td><h4>Customer Information</h4></td>
     </tr>
     </thead>
     <tbody>
@@ -72,7 +72,7 @@
     </tr>
     </tbody>
 </table>
-<p>Please skip this email if you don't send any email for us. May be someone used your email.</p>
+<p>Please skip this email if you did not send a demonstration request to us. Your email was probably used anonymously.</p>
 <p>
     Thanks & best regards,<br>
     <?php echo lang('rainbow_cambodia'); ?>

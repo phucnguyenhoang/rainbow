@@ -123,8 +123,7 @@ function validate() {
         error = true;
         setMessage(txtEmail, Message.required);
         if (focus === null) focus = txtEmail;
-    }
-    if (!validateEmail(email)) {
+    }else if (!validateEmail(email)) {
         error = true;
         setMessage(txtEmail, Message.emailInvalid);
         if (focus === null) focus = txtEmail;

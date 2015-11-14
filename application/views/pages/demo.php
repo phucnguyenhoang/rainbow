@@ -62,8 +62,9 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-2 control-label"><?php echo lang('frm_individual_text'); ?></label>
+                        <label class="col-sm-2 control-label"></label>
                         <div class="col-sm-10 checkbox">
+                            <strong><?php echo lang('frm_individual_text'); ?></strong>
                             <div>
                                 <label>
                                     <input type="checkbox" name="individual[]" value="frm_allergies_and_asthma"> <?php echo lang('frm_allergies_and_asthma'); ?>

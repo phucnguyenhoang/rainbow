@@ -101,7 +101,7 @@ $lang['wall_to_wall_cleaning_text'] = 'Dirt, pet hair and crumbs vanish in the P
 $lang['contact_description'] = "
     <p>Healthy Homes (Cambodia) Co., Ltd the distributor of the world renown Rainbow Home Cleaning System (<a href='http://rainbowsystem.com'>http://rainbowsystem.com</a>), the world's leading Home Cleaning System, is located in the heart of Phnom Penh, BKK1, on the 5th floor of Sun City Building.</p>
     <p>Our business motto is Care for our Customers and Staff. Our Customers deserve the best product and services from us. Our staff deserve the best in respect of career development and remuneration. </p>
-    <img class='img-responsive' src='/resources/img/sun-city.png'>
+    <img class='img-responsive img-contact' src='/resources/img/sun-city.png'>
     <br>
     <address>
       <strong>Please DO NOT hesitate to contact us by one of the following means:</strong><br>

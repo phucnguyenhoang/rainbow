@@ -98,7 +98,7 @@ class Pages extends CI_Controller {
 
         $headerData = array(
             'lang' => $lang,
-            'title' => $this->lang->line('college_university_student'),
+            'title' => $this->lang->line('our_product'),
             'menu' => 'our-product'
         );
         $this->load->view('layout/header', $headerData);
