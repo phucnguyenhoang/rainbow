@@ -39,7 +39,7 @@ $(function() {
         if (val != '') {
             removeError(ctr);
         } else {
-            setMessage(ctr, Message.required);
+            setMessage(ctr, Message[lang]['required']);
         }
     });
 
@@ -50,14 +50,14 @@ $(function() {
         if (val != '') {
             removeError(ctr);
         } else {
-            setMessage(ctr, Message.required);
+            setMessage(ctr, Message[lang]['required']);
             return false;
         }
 
         if (validateEmail(val)) {
             removeError(ctr);
         } else {
-            setMessage(ctr, Message.emailInvalid);
+            setMessage(ctr, Message[lang]['emailInvalid']);
         }
     });
 
@@ -68,7 +68,7 @@ $(function() {
         if (ctr.prop('checked') || chkKhmer.prop('checked')) {
             removeError(ctr.closest('label'));
         } else {
-            setMessage(chkKhmer.closest('label'), Message.languageRequired);
+            setMessage(chkKhmer.closest('label'), Message[lang]['languageRequired']);
         }
     });
     chkKhmer.change(function() {
@@ -76,7 +76,7 @@ $(function() {
         if (ctr.prop('checked') || chkEnglish.prop('checked')) {
             removeError(ctr.closest('label'));
         } else {
-            setMessage(chkKhmer.closest('label'), Message.languageRequired);
+            setMessage(chkKhmer.closest('label'), Message[lang]['languageRequired']);
         }
     });
 });
