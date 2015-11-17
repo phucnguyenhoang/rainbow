@@ -55,41 +55,41 @@ $route['translate_uri_dashes'] = FALSE;
 
 
 $route['en'] = 'pages/home/en';
-$route['ca'] = 'pages/home/ca';
+$route['kh'] = 'pages/home/kh';
 
 $route['en/home'] = 'pages/home/en';
-$route['ca/home'] = 'pages/home/ca';
+$route['kh/home'] = 'pages/home/kh';
 
 $route['rainbow-system'] = 'pages/rainbowSystem/en';
 $route['en/rainbow-system'] = 'pages/rainbowSystem/en';
-$route['ca/rainbow-system'] = 'pages/rainbowSystem/ca';
+$route['kh/rainbow-system'] = 'pages/rainbowSystem/kh';
 
 $route['rainbow-cambodia'] = 'pages/rainbowCambodia/en';
 $route['en/rainbow-cambodia'] = 'pages/rainbowCambodia/en';
-$route['ca/rainbow-cambodia'] = 'pages/rainbowCambodia/ca';
+$route['kh/rainbow-cambodia'] = 'pages/rainbowCambodia/kh';
 
 $route['full-time-opportunity'] = 'pages/fullTime/en';
 $route['en/full-time-opportunity'] = 'pages/fullTime/en';
-$route['ca/full-time-opportunity'] = 'pages/fullTime/ca';
+$route['kh/full-time-opportunity'] = 'pages/fullTime/kh';
 
 $route['part-time-opportunity'] = 'pages/partTime/en';
 $route['en/part-time-opportunity'] = 'pages/partTime/en';
-$route['ca/part-time-opportunity'] = 'pages/partTime/ca';
+$route['kh/part-time-opportunity'] = 'pages/partTime/kh';
 
 $route['college-university-student'] = 'pages/university/en';
 $route['en/college-university-student'] = 'pages/university/en';
-$route['ca/college-university-student'] = 'pages/university/ca';
+$route['kh/college-university-student'] = 'pages/university/kh';
 
 $route['our-product'] = 'pages/product/en';
 $route['en/our-product'] = 'pages/product/en';
-$route['ca/our-product'] = 'pages/product/ca';
+$route['kh/our-product'] = 'pages/product/kh';
 
 $route['contact'] = 'pages/contact/en';
 $route['en/contact'] = 'pages/contact/en';
-$route['ca/contact'] = 'pages/contact/ca';
+$route['kh/contact'] = 'pages/contact/kh';
 
 $route['request-demonstration'] = 'pages/demo/en';
 $route['en/request-demonstration'] = 'pages/demo/en';
-$route['ca/request-demonstration'] = 'pages/demo/ca';
+$route['kh/request-demonstration'] = 'pages/demo/kh';
 
 $route['send-mail'] = 'pages/sendMail';

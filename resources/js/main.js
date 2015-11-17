@@ -81,9 +81,16 @@ $(function() {
     });
 });
 var Message = {
-    required: 'Please input for required field.',
-    languageRequired: 'Please select language.',
-    emailInvalid: "Please input an correct email."
+    en: {
+        required: 'Please input for required field.',
+        languageRequired: 'Please select language.',
+        emailInvalid: "Please input an correct email."
+    },
+    kh: {
+        required: 'សូមបំពេញចន្លោះចាំបាច់',
+        languageRequired: 'សូមជ្រើសរើសភាសា.',
+        emailInvalid: "សូមដាក់អ៊ីមែលដែលត្រូវត្រូវ."
+    }
 };
 function validate() {
     var error = false,
@@ -94,26 +101,27 @@ function validate() {
         txtEmail = $('#txtEmail'),
         txtPhoneNumber = $('#txtPhoneNumber'),
         chkEnglish = $('#chkEnglish'),
-        chkKhmer = $('#chkKhmer');
+        chkKhmer = $('#chkKhmer'),
+        lang = $('#hidLang').val();
 
     // validate full name
     if ($.trim(txtFullName.val()) == '') {
         error = true;
-        setMessage(txtFullName, Message.required);
+        setMessage(txtFullName, Message[lang]['required']);
         if (focus === null) focus = txtFullName;
     }
 
     // validate address
     if ($.trim(txtAddress.val()) == '') {
         error = true;
-        setMessage(txtAddress, Message.required);
+        setMessage(txtAddress, Message[lang]['required']);
         if (focus === null) focus = txtAddress;
     }
 
     // validate city
     if ($.trim(txtCity.val()) == '') {
         error = true;
-        setMessage(txtCity, Message.required);
+        setMessage(txtCity, Message[lang]['required']);
         if (focus === null) focus = txtCity;
     }
 
@@ -121,25 +129,25 @@ function validate() {
     var email = $.trim(txtEmail.val());
     if (email == '') {
         error = true;
-        setMessage(txtEmail, Message.required);
+        setMessage(txtEmail, Message[lang]['required']);
         if (focus === null) focus = txtEmail;
     }else if (!validateEmail(email)) {
         error = true;
-        setMessage(txtEmail, Message.emailInvalid);
+        setMessage(txtEmail, Message[lang]['emailInvalid']);
         if (focus === null) focus = txtEmail;
     }
 
     // validate phone number
     if ($.trim(txtPhoneNumber.val()) == '') {
         error = true;
-        setMessage(txtPhoneNumber, Message.required);
+        setMessage(txtPhoneNumber, Message[lang]['required']);
         if (focus === null) focus = txtPhoneNumber;
     }
 
     // validate language
     if (!chkEnglish.prop('checked') && !chkKhmer.prop('checked')) {
         error = true;
-        setMessage(chkKhmer.closest('label'), Message.languageRequired);
+        setMessage(chkKhmer.closest('label'), Message[lang]['languageRequired']);
         if (focus === null) focus = chkKhmer;
     }
 

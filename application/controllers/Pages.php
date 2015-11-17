@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Pages extends CI_Controller {
 
-    public $language = ['ca' => 'cambodia', 'en' => 'english'];
+    public $language = ['kh' => 'cambodia', 'en' => 'english'];
 
     public function __construct() {
         parent::__construct();

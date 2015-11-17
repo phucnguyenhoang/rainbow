@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://5316e434.ngrok.io/';
+$config['base_url'] = '';
 
 /*
 |--------------------------------------------------------------------------

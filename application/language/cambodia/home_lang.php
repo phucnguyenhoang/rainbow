@@ -3,134 +3,133 @@ $lang['hello'] = 'Hello English!!';
 $lang['rainbow_system'] = 'Rainbow system';
 $lang['rainbow_worldwide'] = 'Rainbow Worldwide';
 $lang['rainbow_cambodia'] = 'Rainbow Cambodia';
-$lang['careers'] = 'Careers';
-$lang['full_time_opportunity'] = 'Full-time opportunity';
-$lang['part_time_opportunity'] = 'Part-time opportunity';
-$lang['college_university_student'] = 'College/University student';
-$lang['our_product'] = 'Our Product';
-$lang['contact'] = 'Contact';
-$lang['request_a_demonstration'] = 'Request a demonstration';
+$lang['careers'] = 'អាជីព';
+$lang['full_time_opportunity'] = 'ឱកាសពេញម៉ោង';
+$lang['part_time_opportunity'] = 'ឱកាសក្រៅម៉ោង';
+$lang['college_university_student'] = 'និស្សិតមហាវិទ្យាល័យ';
+$lang['our_product'] = 'អំពីផលិតផលរបស់យើង';
+$lang['contact'] = 'ទំនាក់ទំនង';
+$lang['request_a_demonstration'] = 'ស្នើសុំការបំភ្លឺ';
 
 $lang['copy_right'] = "Copyright 2015 © Copyright Healthy Homes (Cambodia) Co., Ltd. All Rights Reserved.";
 $lang['designed_by'] = "Designed By Ethan Ho";
 
-$lang['rainbow_system_description'] = "<h2 class='text-info'>WET DUST CAN’T FLY®</h2>
+$lang['rainbow_system_description'] = "<h2 class='text-info'>ដីសើមមិនអាចហុយបានទេ®</h2>
 <ul class='rainbow-system-text'>
-    <li>The Rainbow uses Mother Nature’s most powerful element, water, to trap dirt and odors, returning only naturally clean, water-washed air to your home.</li>
-    <li>Twice as clean.This unique water filtration system captures 99.997% (by weight) of typical household dirt. Remaining microscopic particles are caught by our HEPA Neutralizer Filtration System.</li>
-    <li>This two-stage filtration combination removes nearly 100% of dirt and contaminants. Hurricane™ Motor. Powered by switched-reluctance technology, our powerful Hurricane™ motor has the force to tackle your toughest cleaning jobs and offers indefinite motor life.</li>
-    <li>On-Board LED Headlights.Illuminates the path ahead, ensuring you’ll never miss a spot.</li>
-    <li>Wall-to-wall cleaning. Dirt, pet hair and crumbs vanish in the Power Nozzle’s powerful revolving brush.</li>
-    <li>Circulating Active-Edge brushes clean tough-to-reach debris along baseboards.</li>
+    <li>Rainbow ប្រើនូវអង្គធាតុដ៏មានឥទ្ធិពលបំផុតរបស់មាតាធម្មជាតិដែលជាទឹក ដើម្បីរារាំងល្អងធូលី និងក្លិន ដោយនាំត្រឡប់មកវិញនូវខ្យល់អាកាសដ៏ស្អាតបរិសុទ្ធទៅក្នុងលំនៅដ្ឋានរបស់អ្នក។.</li>
+    <li>ស្អាតជាងធម្មតារហូតដល់ទៅ២ដង។ ប្រព័ន្ធចម្រោះប្រើទឹកដ៏ពិសេសនេះអាចទប់ស្កាត់ការឆ្លងកាត់របស់ធូលីក្នុងផ្ទះដល់ទៅ ៩៩.៩៩៧% (គិតជាទម្ងន់)។ អង្គធាតុល្អិតៗតូចៗត្រូវបានស្ទាក់ចាប់ដោយប្រព័ន្ធចម្រោះដោយទឹក HEPA Neutralizer Filtration System របស់យើង។ .</li>
+    <li>បណ្តុំប្រព័ន្ធចម្រោះ២ជាន់នេះធ្វើការច្រោះយកចេញនូវដីធូលី និងសារធាតុមិនល្អស្ទើតែ​១០០ភាគរយ។  HurricaneTM Motor ផលិតដោយបច្ចេកវិទ្យា switched-reluctance ដែលHurricaneTMMotor របស់យើងមានសក្តានុពលភាពដែលមានកម្លាំងសម្រួលដល់ការងារសម្អាតលំបាកៗរបស់អ្នក ហើយមានគុណភាពយូរអង្វែងថែមទៀតផង។.</li>
+    <li>អំពូល LED លើឧបករណ៍ខាងមុខ ដែលបង្ហាញពីកន្លែងត្រូវសម្អាតខាងមុខ ដូចនេះ អ្នកនឹងធ្វើការសម្អាតបានស្អាតល្អសព្វទីកន្លែង។.</li>
+    <li>ការសម្អាតកម្រាលព្រំ។ ច្រាសបង្វិលដ៏មានសមត្ថភាពរបស់ Power Nozzle ធ្វើការសម្អាតដីធូលី រោមសត្វចិញ្ចឹម និងកម្ទេចកម្ទីតូចៗបានយ៉ាងស្អាតល្អឥតខ្ចោះ។.</li>
+    <li>គែមច្រាសសកម្មដែលវិលយ៉ាងលឿននេះអាចធ្វើការសម្អាតកម្ទេចកម្ទី នៅតាមកន្លុក កន្លៀតយ៉ាងល្អ។.</li>
 </ul>";
 
 $lang['rainbow_cambodia_description'] = "<h2 class='text-info'>Rainbow Cambodia</h2>
-    <p>Rainbow is an American product manufactured by Rexair LLC, in Troy City, Michigan State, USA since 1929. Today the Rainbow is sold and enjoyed in over 100 countries around the world with millions of satisfied customers.</p>
-    <p>Healthy Homes Regional Office in Singapore has been distributing the Rainbow Home Cleaning System (<a href='http://rainbowsystem.com'>http://rainbowsystem.com</a>), the world's leading Home Cleaning System for more than 30 years. In addition the Rainbow has been distributed in Philippine & Singapore for 32 years, Thailand for 29 years, Malaysia for 22 years, Indonesia for 21 years and Vietnam for 4 years.</p>
-    <p>In October 2014, the  Rainbow Home Cleaning System was FINALLY introduced to Cambodia.</p>";
+    <p>Rainbow គឺជាផលិតផលរបស់ប្រទេសអាមេរិក ផលិតដោយ Rexair LLC ក្នុងទីក្រុងត្រយ ក្នុងរដ្ឋមីឈីហ្គេន សហរដ្ឋអាមេរិចតាំងពីឆ្នាំ​១៩២៩មកម្ល៉េះ។ នាពេលបច្ចុប្បន្ន Rainbow មានលក់លើទីផ្សារជាង ១០០ ប្រទេសជុំវិញពិភពលោកដែលមានអតិថិជនគាំទ្រជាច្រើនលាននាក់។.</p>
+    <p>ការិយាល័យកណ្តាលរបស់ Healthy Home ក្នុងប្រទេសសឹង្ហបុរីបាននឹងកំពុងចែកចាយផលិតផលប្រព័ន្ធសម្អាតតាមគេហដ្ឋានដែលមានស្លាកយីហោ Rainbow (<a href='http://rainbowsystem.com'>http://rainbowsystem.com</a>)​ដែលជាផលិតផលប្រព័ន្ធសម្អាតគេហដ្ឋានឈានមុខគេអស់រយៈពេលច្រើនជាង ៣ទសវត្សមកហើយ។ ច្រើនជាងនេះទៅទៀត ផលិតផល Rainbow មានវត្តមានលើទីផ្សាររបស់ប្រទេសសិង្ហបុរី និងប្រទេសហ្វីលីពីនអស់ជាង ៣២ឆ្នាំ នៅប្រទេសថៃ ២៩ឆ្នាំ ប្រទេសម៉ាលេស៊ី២២ឆ្នាំ ឥណ្ឌូនេស៊ី​២១ឆ្នាំ និង ប្រទេសវៀតណាមរយៈពេល៤ឆ្នាំមកហើយ។ .</p>
+    <p>ក្នុងខែតុលាឆ្នាំ២០១៤ ផលិតផលប្រព័ន្ធសម្អាតគេហដ្ឋាន Rainbow បានមកដល់ប្រទេសកម្ពុជា។ .</p>";
 
-$lang['full_time_description'] = "<h2 class='text-info'>Full-time Opportunity</h2>
-<p>Full-time Sales Executive opportunities in the Rainbow business is a great career option for individuals who desire to seek a challenging career with a clear career path, earning BOTH
-a basic salary and an attractive commission.</p>
-<p>A number of positions are available in the areas of marketing, sales and sales management. No prior experience is necessary,  WE, your local independent Rainbow Distributor will provide everything you need to get started, including:</p>
+$lang['full_time_description'] = "<h2 class='text-info'>ឱកាសពេញម៉ោង</h2>
+<p>ឱកាសការងារពេញម៉ោងជាប្រធានផ្នែកលក់នៅក្រុមហ៊ុន​ Rainbow គឺជាជម្រើសការងារដ៏ធំបំផុតសម្រាប់អ្នកដែលមានបំណងស្វែងរកការងារដែលប្រកួតប្រជែងជាមួយនឹងផ្នត់ដំណើរការងារច្បាស់លាស់ ដែលមានទាំងប្រាក់ខែគោល និងប្រាក់បន្ថែមពីការលក់ផងដែរ។ .</p>
+<p>មានឱកាសការងារមួយចំនួនទៀត នៅផ្នែកទីផ្សារ ផ្នែកលក់ និងផ្នែកគ្រប់គ្រងការលក់។ មិនចាំបាច់មិនបទពិសោធន៍នោះទេ តែយើងដែលជាអ្នកចែកចាយផលិតផល Rainbow  ផ្តាច់មុខនឹងផ្តល់នូវគ្រប់តម្រូវការទាំងអស់សម្រាប់ការចាប់ផ្តើមការងារបស់អ្នកដែលរួមមាន៖:</p>
 
-<h4>Comprehensive training</h4>
+<h4>ការបណ្តុះបណ្តាលលើការយល់ដឹង</h4>
 <ul>
-    <li>A great product</li>
-    <li>Fun and exciting work environment</li>
-    <li>Oversea incentive trips.</li>
-    <li>Opportunities for advancement</li>
+    <li>ផលិតផលដ៏ល្អបំផុត</li>
+    <li>បរិស្ថានការងាររីករាយ</li>
+    <li>ដំណើរកំសាន្តក្រៅប្រទេសសម្រាប់ការលើកទឹកចិត្ត</li>
+    <li>ឱកាសទទួលបានអត្ថប្រយោជន៍ជាច្រើនទៀត</li>
 </ul>
 <br><br>
 <address>
-  <strong>Please send your CV & Cover Letter to</strong><br>
+  <strong>សូមផ្ញើ CV និង Cover Letter របស់អ្នកមកកាន់</strong><br>
   <a href='mailto:recruitment@healthyhomes.com.kh'>recruitment@healthyhomes.com.kh</a><br>
-  <strong>With email subject:</strong><br>
+  <strong>ដោយដាក់ប្រធានបទ (subject) ថា:</strong><br>
   [Full-time]_Your name_Sales Executive.<br>
-  <abbr title='Example'>Example:</abbr> [Full-time]_Theng Dalin_Sales Executive.<br>
-  <abbr title='Phone'>Hotline:</abbr> 023 211 022 for any inquiries.
+  <abbr title='Example'>ឧទាហរណ៍:</abbr> [Full-time]_Theng Dalin_Sales Executive.<br>
+  <abbr title='Phone'>Hotline:</abbr> សម្រាប់ព័ត៌មាន ឬចម្ងល់ផ្សេងៗ សូមទំនាក់ទំនងតាមទូរស័ព្ទលេខ៖ 023​211022
 </address>";
 
-$lang['part_time_description'] = "<h2 class='text-info'>Part-time Opportunity</h2>
-<p>Part-time opportunities in the Rainbow business is an ideal way to earn money on a flexible schedule that fits your lifestyle.</p>
-<p>Perhaps you would like to make more money to help pay for your loan, buy a new house or car, save for college tuition, take a dream vacation or just cover day-to-day living expenses.</p>
-<p>In the Rainbow business, you can have a part-time opportunity working a few hours a week, at the same time you still can keep your current job. That could put extra money in your pocket each month and help you get more out of life. You can even determine the hours you work.</p>
+$lang['part_time_description'] = "<h2 class='text-info'>ឱកាសក្រៅម៉ោង</h2>
+<p>ឱកាសការងារក្រៅម៉ោងជាមួយក្រុមហ៊ុន Rainbow គឺជាមធ្យោបាយដ៏ឆ្លាតវៃសម្រាប់ការរកកម្រៃតាមពេលដែលអ្នកទំនេរ ដែលអ្នកពុំចាំបាច់ចំណាយពេលវេលាមកធ្វើការនៅក្រុមហ៊ុនឡើយ។.</p>
+<p>ប្រហែលជាអ្នកត្រូវការរកលុយបន្ថែមសម្រាប់បង់ប្រាក់រំលោះ ទិញផ្ទះឬឡានថ្មី សន្សំទុកបង់លុយមហាវិទ្យាល័យ ទុកធ្វើដំណើរកំសាន្ត ឬការចាយវាយប្រចាំថ្ងៃផងដែរ។.</p>
+<p>នៅក្រុមហ៊ុន Rainbow អ្នកអាចចាប់យកឱកាសការងារក្រៅម៉ោងដោយធ្វើត្រឹមតែពីរបីម៉ោងប៉ុណ្ណោះក្នុង១សប្តាហ៍ខណៈដែលអ្នកអាចធ្វើការងាររបស់អ្នកផងដែរ។ ធ្វើបែបនេះ អ្នកអាចស្វែងរកថវិកាបន្ថែមបានរៀងរាល់ខែ ហើយអ្នកអាចជ្រើសរើសម៉ោងដែលអ្នកចង់ធ្វើបានថែមទៀតផង។.</p>
 <br>
 <address>
-  <strong>Please send your CV & Cover Letter to</strong><br>
+  <strong>សូមផ្ញើ CV និង Cover Letter របស់អ្នកមកកាន់</strong><br>
   <a href='mailto:hr@healthyhomes.com.kh'>hr@healthyhomes.com.kh</a><br>
-  <strong>With email subject:</strong><br>
+  <strong>ដោយដាក់ប្រធានបទ (subject) ថា:</strong><br>
   [Part-time]_Your name_Sales Executive.<br>
-  <abbr title='Example'>Example:</abbr> [Part-time]_Theng Dalin_Sales Executive.<br>
-  <abbr title='Phone'>Hotline:</abbr> 023 211 022 for any inquiries.
+  <abbr title='Example'>ឧទាហរណ៍:</abbr> [Part-time]_Theng Dalin_Sales Executive.<br>
+  <abbr title='Phone'>Hotline:</abbr> សម្រាប់ព័ត៌មាន ឬចម្ងល់ផ្សេងៗ សូមទំនាក់ទំនងតាមទូរស័ព្ទលេខ៖ 023​211022
 </address>";
 
-$lang['university_description'] = "<h2 class='text-info'>College/University student</h2>
-<p>Most college students get by on a very limited budget. Would you like to make extra money to help with the cost of college tuition, rent, day-to-day living expenses or even purchase a better car?</p>
-<p>The Rainbow business offers part-time opportunities. Just a few hours a week means extra money in your pocket to help you to get more out of life. You even determine the hours that you work.</p>
-<p>Rainbow Distributors provide real-life experience with the opportunity to make good money. And it offers a proven advancement path, should you choose to make a career of it. If you have a positive attitude and need to generate additional income, why not give Rainbow a try?</p>
+$lang['university_description'] = "<h2 class='text-info'>និស្សិតមហាវិទ្យាល័យ</h2>
+<p>និស្សិតមហាវិទ្យាល័យភាគច្រើនជួបប្រទះបញ្ហាប្រាក់កាស។ អញ្ចឹង តើអ្នកចង់បានថវិកាបន្ថែមដើម្បីជួយសម្រាលថ្លៃសាលា ថ្លៃឈ្នួលផ្សេងៗ និងការចំណាយប្រចាំថ្ងៃ ឬទិញរថយន្តថ្មីដែរឬទេ?</p>
+<p>ក្រុមហ៊ុន Rainbow ផ្តល់នូវការងារក្រៅម៉ោងបែបនេះ។ គ្រាន់តែចំណាយពេលពីរបីម៉ោងប៉ុណ្ណោះក្នុង១សប្តាហ៍ដើម្បីជួយអ្នកលើបញ្ហានេះ។ ហើយអ្នកអាចជ្រើសរើសម៉ោងដែលអ្នកចង់ធ្វើបានថែមទៀតផង។.</p>
+<p>ក្រុមហ៊ុនចែកចាយ Rainbow ផ្តល់នូវបទពិសោធន៍ពិតៗតាមរយៈការងាររបស់យើង ខណៈដែលអ្នកអាចឆ្លៀតពេលរកប្រាក់បានថែមទៀតផង។ ហើយវាផ្តល់នូវពន្លឺដល់ដំណើរជិវិតការងាររបស់អ្នក ដែលអ្នកអាចនឹងជ្រើសរើសការងារនេះជាអាជីពប្រចាំជីវិតថែមទៀតផង។ ប្រសិនបើអ្នកគិតថាអ្នកសាកសមនឹងការងារនេះ ហើយកំពុងតែត្រូវការស្វែងរកប្រាក់បន្ថែម ហេតុអ្វីមិនសាកល្បងធ្វើការនៅ Rainbow សាកមើល៎?</p>
 <br>
 <address>
-  <strong>Please send your CV & Cover Letter to</strong><br>
+  <strong>សូមផ្ញើ CV និង Cover Letter របស់អ្នកមកកាន់</strong><br>
   <a href='mailto:hr@healthyhomes.com.kh'>hr@healthyhomes.com.kh</a><br>
-  <strong>With email subject:</strong><br>
+  <strong>ដោយដាក់ប្រធានបទ (subject) ថា:</strong><br>
   [Student]_Your name_Sales Executive.<br>
-  <abbr title='Example'>Example:</abbr> [Student]_Theng Dalin_Sales Executive.<br>
-  <abbr title='Phone'>Hotline:</abbr> 023 211 022 for any inquiries.
+  <abbr title='Example'>ឧទាហរណ៍:</abbr> [Student]_Theng Dalin_Sales Executive.<br>
+  <abbr title='Phone'>Hotline:</abbr> សម្រាប់ព័ត៌មាន ឬចម្ងល់ផ្សេងៗ សូមទំនាក់ទំនងតាមទូរស័ព្ទលេខ៖ 023​211022
 </address>";
 
 
-$lang['how_it_work'] = 'How it Works';
-$lang['wet_dust_cannot_fly'] = 'Wet Dust Can’t Fly®';
-$lang['wet_dust_cannot_fly_text'] = 'The Rainbow uses Mother Nature’s most powerful element, water, to trap dirt and odors, returning only naturally clean, water-washed air to your home environment.';
-$lang['twice_as_clean'] = 'Twice as clean';
-$lang['twice_as_clean_text'] = 'This unique water filtration system captures typical household dirt, while remaining microscopic particles are caught by our HEPA Neutralizer Filtration System. This two-stage filtration combination removes nearly 100% of dirt and contaminants from your home.';
+$lang['how_it_work'] = 'របៀបនៃការធ្វើការ';
+$lang['wet_dust_cannot_fly'] = 'ដីសើមមិនអាចហុយបានទេ®';
+$lang['wet_dust_cannot_fly_text'] = 'Rainbow ប្រើនូវអង្គធាតុដ៏មានឥទ្ធិពលបំផុតរបស់មាតាធម្មជាតិដែលជាទឹក ដើម្បីរារាំងល្អងធូលី និងក្លិន ដោយនាំត្រឡប់មកវិញនូវខ្យល់អាកាសដ៏ស្អាតបរិសុទ្ធទៅក្នុងលំនៅដ្ឋានរបស់អ្នក។.';
+$lang['twice_as_clean'] = 'ស្អាតជាងធម្មតារហូតដល់ទៅ២ដង';
+$lang['twice_as_clean_text'] = 'ប្រព័ន្ធចម្រោះប្រើទឹកដ៏ពិសេសនេះអាចទប់ស្កាត់ការឆ្លងកាត់របស់ធូលីក្នុងផ្ទះដល់ទៅ ៩៩.៩៩៧% (គិតជាទម្ងន់)។ អង្គធាតុល្អិតៗតូចៗត្រូវបានស្ទាក់ចាប់ដោយប្រព័ន្ធចម្រោះដោយទឹក HEPA Neutralizer Filtration System របស់យើង។ បណ្តុំប្រព័ន្ធចម្រោះ២ជាន់នេះធ្វើការច្រោះយកចេញនូវដីធូលី និងសារធាតុមិនល្អស្ទើតែ​១០០ភាគរយ។  .';
 $lang['hurricane_motor'] = 'Hurricane® Motor';
-$lang['hurricane_motor_text'] = 'Powered by switched-reluctance technology, our powerful Hurricane® motor has the force to tackle your toughest cleaning jobs and offers indefinite motor life.';
-$lang['power_and_control_at_your_fingertips'] = 'Power and control at your fingertips';
-$lang['power_and_control_at_your_fingertips_text'] = 'We’ve thoughtfully placed the controls in an ergonomic handle grip, allowing precise control over powered accessories.';
-$lang['quick_connect'] = 'Quick Connect';
-$lang['quick_connect_text'] = 'Changing wands and tools for different jobs is a snap.';
-$lang['travel_lightly'] = 'Travel lightly';
-$lang['travel_lightly_text'] = 'The Rainbow follows you from room-to-room on its easy-maneuvering dolly. A rubberized bumper protects your walls and furniture.';
-$lang['on_board_led_headlights'] = 'On-Board LED Headlights';
-$lang['on_board_led_headlights_text'] = 'Illuminates the path ahead, ensuring you’ll never miss a spot.';
-$lang['wall_to_wall_cleaning'] = 'Wall-to-wall cleaning';
-$lang['wall_to_wall_cleaning_text'] = 'Dirt, pet hair and crumbs vanish in the Power Nozzle’s powerful revolving brush. Circulating Active-Edge brushes clean tough-to-reach debris along baseboards.';
+$lang['hurricane_motor_text'] = 'ផលិតដោយបច្ចេកវិទ្យា switched-reluctance ដែលHurricaneTMMotor របស់យើងមានសក្តានុពលភាពដែលមានកម្លាំងសម្រួលដល់ការងារសម្អាតលំបាកៗរបស់អ្នក ហើយមានគុណភាពយូរអង្វែងថែមទៀតផង។.';
+$lang['power_and_control_at_your_fingertips'] = 'បើកបិទ និងបញ្ជាដោយប្រើប៊ូតុងក្បែរម្រាមដៃអ្នកផ្ទាល់តែម្តង';
+$lang['power_and_control_at_your_fingertips_text'] = 'យើងបានគិតយ៉ាងផ្ចិតផ្ចង់ហើយបានរចនាដោយដាក់ប៊ូតុងនៅក្បែរកន្លែងដៃម៉ាស៊ីន​សម្រាប់កាន់នោះ​តែម្តង ដែលធ្វើឲ្យអ្នកមានភាពងាយស្រួលក្នុងការបញ្ជាម៉ាស៊ីន។.';
+$lang['quick_connect'] = 'ភ្ជាប់រហ័ស';
+$lang['quick_connect_text'] = 'ផ្លាស់ប្តូរផ្នែក និងគ្រឿងបន្លាស់ប្តូរមុខងារបានលឿនបំផុត.';
+$lang['travel_lightly'] = 'ទម្ងន់ស្រាល ងាយស្រួលផ្លាស់ទី';
+$lang['travel_lightly_text'] = 'Rainbow ធ្វើដំណើរតាមអ្នកពីបន្ទប់មួយទៅបន្ទប់មួយទៀតដោយកង់របស់វាដែលងាយស្រួលផ្លាស់ទី ដែលមានកាងជ័រទន់សម្រាប់ការពារការបង្កការខូចខាតដល់ជញ្ជាំង និងគ្រឿងសង្ហារឹមក្នុងគេហដ្ឋានអ្នក។.';
+$lang['on_board_led_headlights'] = 'មានអំពូល LED ខាងមុខស្រេច។ ';
+$lang['on_board_led_headlights_text'] = 'ដែលបង្ហាញពីកន្លែងត្រូវសម្អាតខាងមុខ ដូចនេះ អ្នកនឹងធ្វើការសម្អាតបានស្អាតល្អសព្វទីកន្លែង។.';
+$lang['wall_to_wall_cleaning'] = 'ការសម្អាតកម្រាលព្រំ';
+$lang['wall_to_wall_cleaning_text'] = 'ច្រាសបង្វិលដ៏មានសមត្ថភាពរបស់ Power Nozzle ធ្វើការសម្អាតដីធូលី រោមសត្វចិញ្ចឹម និងកម្ទេចកម្ទីតូចៗបានយ៉ាងស្អាតល្អឥតខ្ចោះ។ គែមច្រាសសកម្មដែលវិលយ៉ាងលឿននេះអាចធ្វើការសម្អាតកម្ទេចកម្ទីនៅតាមកន្លុកកន្លៀងបនាយ៉ាងល្អ។ .';
 
 $lang['contact_description'] = "
-    <p>Healthy Homes (Cambodia) Co., Ltd the distributor of the world renown Rainbow Home Cleaning System (<a href='http://rainbowsystem.com'>http://rainbowsystem.com</a>), the world's leading Home Cleaning System, is located in the heart of Phnom Penh, BKK1, on the 5th floor of Sun City Building.</p>
-    <p>Our business motto is Care for our Customers and Staff. Our Customers deserve the best product and services from us. Our staff deserve the best in respect of career development and remuneration. </p>
+    <p>Healthy Homes (Cambodia) Co., Ltd ដែលក្រុមហ៊ុនចែកចាយបន្តរបស់ក្រុមហ៊ុនផលិតផលសម្អាតគេហដ្ឋាន Rainbow (<a href='http://rainbowsystem.com'>http://rainbowsystem.com</a>) ដែលជាក្រុមហ៊ុនផលិតផលសម្អាតគេហដ្ឋានឈានមុខគេលើពិភពលោក មានអាសយដ្ឋាននៅជាន់ទី៥នៃអាគារ Sun City ក្នុងសង្កាត់បឹងកេកកង១ ក្នុងទីក្រុងភ្នំពេញ។ .</p>
+    <p>បាវនារបស់ក្រុមហ៊ុនយើងគឺការយកចិត្តទុកដាក់សម្រាប់អតិថិជន និងបុគ្គលិកផងដែរ។ អតិថិជនរបស់យើងរមែងគប្បីទទួលបានផលិតផល និងសេវាដែលមានគុណភាពខ្ពស់ពីយើង។ រីឯបុគ្គលិករបស់យើងវិញរមែងត្រូវការការគោរពក្នុងលក្ខខណ្ឌជាបុគ្គលិកតាមរយៈការអភិវឌ្ឍ និងប្រាក់លើកទឹកចិត្តផងដែរ។. </p>
     <img class='img-responsive img-contact' src='/resources/img/sun-city.png'>
     <br>
     <address>
-      <strong>Please DO NOT hesitate to contact us by one of the following means:</strong><br>
+      <strong>សូមកុំមានការរារែកក្នុងការទំនាក់ទំនងមកកាន់ពួកយើងតាមមធ្យោបាយដូចខាងក្រោម៖:</strong><br>
       <abbr title='Phone'>Hotline:</abbr> 023 213 933 / 099 333 195<br>
       <abbr title='Email'>Email:</abbr> <a href='mailto:customerservice@healthyhomes.com.kh'>customerservice@healthyhomes.com.kh</a> <br>
-      <abbr title='Address'>Address:</abbr> Level 5 Unit 1 SunCity, No. 255, Street 51 (corner of Street 370), Phnom Penh, Cambodia.
+      <abbr title='Address'>អាសយដ្ឋាន:</abbr>ជាន់ទី៥នៃអាគារ Sun City, បន្ទប់លេខ ២៥៥ ផ្លូវលេខ​៥១ កែងផ្លូវ៣៧០ រាជធានីភ្នំពេញ ប្រទេសកម្ពុជា
     </address>";
 
-$lang['request_text'] = "To see how the Rainbow can meet your specific cleaning needs, we invite you to see it in your home. Just fill out the form below and we’ll send the information to an Authorized Dealer in your area.";
-$lang['frm_full_name'] = "Full Name";
-$lang['frm_address'] = "Address";
-$lang['frm_city'] = "City";
-$lang['frm_country'] = "Country";
-$lang['frm_email'] = "E-mail";
-$lang['frm_phone_number'] = "Phone Number";
-$lang['frm_demo_language'] = "Demo Language Preferred";
-$lang['frm_individual_text'] = "Please check the areas of concern so the Dealer can tailor the demonstration to your individual cleaning needs.";
-$lang['frm_allergies_and_asthma'] = "Allergies and Asthma";
-$lang['frm_carpeting'] = "Carpeting";
-$lang['frm_hard_surface_floor_care'] = "Hard Surface Floor Care";
-$lang['frm_dust_removal'] = "Dust Removal";
-$lang['frm_pets'] = "Pets";
-$lang['frm_children'] = "Children";
-$lang['frm_mattress_and_pillow'] = "Mattress & Pillow";
-$lang['frm_how_did_you_hear_about_us'] = "How did you hear about us?";
-$lang['frm_send'] = "Send";
+$lang['request_text'] = "ដើម្បីដឹងច្បាស់ថាតើផលិតផលរបស់ Rainbow អាចសម្អាតគេហដ្ឋានរបស់លោកលោកស្រីបានល្អប៉ុណ្ណា យើងមានសេចក្តីសោមនស្សរីករាយក្នុងការអញ្ជើញលោកលោកស្រីឲ្យបានឃើញផ្ទាល់នៅគេហដ្ឋានរបស់លោកលោកស្រីផ្ទាល់តែម្តង។ គ្រាន់តែបំពេញទម្រង់បែបបទខាងក្រោម រួចយើងនឹងផ្ញើព័ត៌មានទៅកាន់អ្នកចែកចាយបន្តដែលនៅជិតអ្នកបំផុត។ .";
+$lang['frm_full_name'] = "នាម និងត្រកូល";
+$lang['frm_address'] = " អាសយដ្ឋាន";
+$lang['frm_city'] = "ទីក្រុង";
+$lang['frm_country'] = "ប្រទេស";
+$lang['frm_email'] = "Email";
+$lang['frm_phone_number'] = "លេខទូរស័ព្ទ";
+$lang['frm_demo_language'] = "ជ្រើសរើសភាសាសម្រាប់ការណែនាំបង្ហាញ";
+$lang['frm_individual_text'] = "សូមបញ្ជាញ់ទីតាំង ឬបញ្ហានៃការសម្អាតក្នុងគេហដ្ឋានអ្នក នោះអ្នកចែកចាយបន្តយើងខ្ញុំនឹងអាចផ្តល់នូវការបង្រៀនពីរបៀបសម្អាតបាន។ .";
+$lang['frm_allergies_and_asthma'] = "អាការៈប្រតិកម្ម អាលែកហ្ស៊ី ឬ កើតហឺត";
+$lang['frm_carpeting'] = "កម្រាលព្រំ";
+$lang['frm_hard_surface_floor_care'] = "ការសម្អាតជាន់ដែលមានផ្ទៃរឹង ";
+$lang['frm_dust_removal'] = "ការសម្អាតធូលី";
+$lang['frm_pets'] = "សត្វចិញ្ចឹម";
+$lang['frm_children'] = "កូនក្មេង";
+$lang['frm_mattress_and_pillow'] = "ពូក និងខ្នើយ";
+$lang['frm_how_did_you_hear_about_us'] = "តើអ្នកស្គាល់ពួកយើងតាមរបៀបណា?";
+$lang['frm_send'] = " ផ្ញើចេញ";
 
 /* form validation message */
-$lang['request_failed'] = "Request a demonstration failed. Please try again.";
-$lang['request_success'] = "Request a demonstration successfully.";
-$lang['email_configuration_title'] = 'Request a demonstration successfully';
+$lang['request_failed'] = "សំណើរបរាជ័យ។ សូមមេត្តាព្យាយាមម្តងទៀត.";
+$lang['request_success'] = "សំណើរជោគជ័យ.";
+$lang['email_configuration_title'] = 'សំណើរជោគជ័យ.';
 
